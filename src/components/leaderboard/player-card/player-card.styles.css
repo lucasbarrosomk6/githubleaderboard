@@ -1,0 +1,49 @@
+.player-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 21px;
+  width: 90%;
+  border-radius: 2vw;
+  background-color: white;
+  padding: 0 0.8vw;
+  margin-top: 2%;
+}
+.player-card:hover {
+  background-color: lightblue;
+}
+.player-card .place {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5%;
+  height: inherit;
+}
+.player-card .name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+
+  height: inherit;
+}
+.player-card .score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5%;
+  height: inherit;
+}
+.player-card-collapsed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 21px;
+  width: fit-content;
+  border-radius: 2vw;
+  background-color: white;
+  padding: 0 0.5vw;
+  margin-top: 2%;
+  transition: all 0.5s;
+  cursor: pointer;
+}

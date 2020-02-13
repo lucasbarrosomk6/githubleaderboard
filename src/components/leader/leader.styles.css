@@ -1,0 +1,19 @@
+.leader-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90%;
+  min-height: 260px;
+  width: 90%;
+  background-color: white;
+  border-radius: 2vw;
+}
+.leader-card img {
+  width: 50%;
+  height: auto;
+}
+.leader-card h3 {
+  border-bottom: 2px solid black;
+  padding: 5%;
+}
