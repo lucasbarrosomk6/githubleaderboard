@@ -2,7 +2,6 @@ import React from "react";
 import "./App.css";
 import Leader from "./components/leader/leader.component.jsx";
 import Leaderboard from "./components/leaderboard/leaderboard.component.jsx";
-import PlayerCard from "./components/leaderboard/player-card/player-card.component";
 
 class App extends React.Component {
   constructor(props) {

@@ -5,6 +5,7 @@ import PlayerCard from "./player-card/player-card.component";
 const Leaderboard = props => (
   <div className="leaderboard-card">
     <PlayerCard place="" name="name" score="score" />
+
     {props.players.map((player, index) => (
       <PlayerCard
         key={player.id}

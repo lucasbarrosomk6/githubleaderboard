@@ -6,7 +6,9 @@ class PlayerCard extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      players: props.players,
+      place: props.place,
+      name: props.name,
+      score: props.score,
       active: false
     };
     this.toggleActive = this.toggleActive.bind(this);
@@ -14,8 +16,10 @@ class PlayerCard extends React.Component {
   toggleActive() {
     this.setState({ active: !this.state.active });
   }
+
   render() {
-    const { place, name, score } = this.state.players;
+    console.log(this.state.player);
+    const { place, name, score } = this.state;
     if (!this.state.active)
       return (
         <div className="player-card" onClick={toggleActive}>
