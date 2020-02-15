@@ -69,8 +69,8 @@ class App extends React.Component {
             <button onClick={this.fetchUser}>fetch</button>
           </div>
           <div className="main">
-            <div className="left"></div>
-            <div className="right"></div>
+            <div className="left"><Leader/></div>
+            <div className="right"><Leaderboard/></div>
           </div>
         </div>
       );

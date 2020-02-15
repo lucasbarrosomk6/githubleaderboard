@@ -6,14 +6,21 @@
   height: 90%;
   min-height: 260px;
   width: 90%;
+  border: 2px solid orangered;
   background-color: white;
-  border-radius: 2vw;
+border-radius: 50px;
+overflow: hidden;
+transition: all .5s;
+}
+.leader-card:hover{
+  background-color: rgb(255, 161, 126);
+  ;
 }
 .leader-card img {
   width: 50%;
   height: auto;
 }
 .leader-card h3 {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid orangered;
   padding: 5%;
 }

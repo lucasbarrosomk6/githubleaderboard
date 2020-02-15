@@ -16,7 +16,7 @@ const Leader = props => (
         </div>
       </div>
     ) : (
-      <div>Add a user to begin</div>
+      <h3 style={{color:"orangeRed"}}>Add a user to begin</h3>
     )}
   </div>
 );

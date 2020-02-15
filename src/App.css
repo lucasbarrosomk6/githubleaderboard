@@ -20,7 +20,6 @@
   min-height: 280px;
   width: 30%;
   min-width: 280px;
-  background-color: grey;
 }
 .right {
   display: flex;
@@ -29,16 +28,46 @@
   max-height: 100%;
   width: 70%;
   min-width: 500px;
-  background-color: grey;
 }
 .main {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  margin-top: 5px;
+  border: 2px solid orangered;
+  border-radius: 20px;
+  background-color: rgb(252, 227, 217);
+  overflow: hidden;
 }
 .header {
   display: flex;
   justify-content: center;
   align-items: center;
   min-width: 780px;
+  min-height: 30px;
+border: 2px solid orangered;
+border-radius: 50px;
+overflow: hidden;
+}
+.header input{
+  border: none;
+  width: 90%;
+  height: 100%;
+  text-align: center;
+  font-size: 4vh;
+  color: orangered;
+}
+.header button{
+  width:10%;
+  border: none;
+  border-left: 2px solid orangered;
+  cursor: pointer;
+  background-color: rgb(255, 161, 126);
+  height: 150%;
+  color: orangered;
+  transition: all .5s;
+}
+.header button:hover{
+   color:rgb(255, 161, 126);
+   background-color: orangered;
 }
