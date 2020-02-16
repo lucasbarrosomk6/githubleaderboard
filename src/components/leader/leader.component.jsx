@@ -4,7 +4,7 @@ import "./leader.styles.css";
 const Leader = props => (
   <div className="leader-card">
     {props.leader ? (
-      <div className="leader-card">
+      <div className="leader-card2">
         <img src={props.leader.avatar_url} alt={props.leader.login} />
         <h3>{props.leader.login}</h3>
         <div>

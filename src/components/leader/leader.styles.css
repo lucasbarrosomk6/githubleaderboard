@@ -12,6 +12,19 @@ border-radius: 50px;
 overflow: hidden;
 transition: all .5s;
 }
+.leader-card2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90%;
+  min-height: 260px;
+  width: 90%;
+  background-color: white;
+border-radius: 50px;
+overflow: hidden;
+transition: all .5s;
+}
 .leader-card:hover{
   background-color: rgb(255, 161, 126);
   ;
